@@ -2,6 +2,7 @@
 
 provider "aws" {
   region = "ap-south-1"
-  shared_credentials_file = "/home/ec2-user/.aws/credentials"
-  profile                 = "airsevadevops"
+  access_key_id = AKIA4IAE6FTPJQTGBKJF
+  ecret_access_key = 1OioR3kEek6on7FdsRppewuffqDFYvyW08Ges8VI
+
 }
