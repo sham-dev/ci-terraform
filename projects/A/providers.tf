@@ -1,8 +1,8 @@
 #Add the provider "
-variable "shared_credentials_file" { }
 
 provider "aws" {
   region = "ap-south-1"
-  shared_credentials_file = "${var.shared_credentials_file}"
-
+  assume_role {
+    role_arn = "arn:aws:iam::841823956190:user/airsevadevops"
+  }
 }
