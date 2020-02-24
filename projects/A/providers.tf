@@ -2,7 +2,5 @@
 
 provider "aws" {
   region = "ap-south-1"
-  assume_role {
-    role_arn = "arn:aws:iam::841823956190:user/airsevadevops"
-  }
+  shared_credentials_file = "/home/ec2-user/.aws/credentials"
 }
